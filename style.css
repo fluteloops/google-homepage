@@ -1,11 +1,16 @@
+body{
+min-height: 100%;
+min-width: 980px;
+}
+.upprght {
+	height: 69px;
+	margin-top: 25px;
+	padding-right: 30px;
+	position: relative;
+}
 .top {
-	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 20px;
-	right: 0px;
-	width: auto;
+	float: right;
 	font-family: Arial;
 	font-size: 13px;
 	word-spacing: 10px;
@@ -21,31 +26,86 @@ li {
 .top a:visited {
 	color: #696969;
 }
-.boxes {
-	height: 30px;
-	vertical-align: middle;
+.nine {
+position: relative;
+width: 30px;
+height: 30px;
+overflow: hidden;
+top: -21px;
+left: 100px;
+margin-right: 180px;
+
 }
-.bell {
-	height: 20px;
-	vertical-align: middle;
+.squares{
+position: absolute;
+left: -450%;
+top: -130%;
 }
-.M {
-	background-color: #008b8b;
-	padding: 10px 12px;
-	border-radius: 100px;
+.sign_in {
+position: relative;
+top: -53px;
+left: 140px;
+background: #4285f4;
+border: 1px solid #4285f4;
+font-weight: bold;
+height: 30px;
+width: 69px;
+text-align: center;
+border-radius: 2px;
 }
-div {
-	height: auto;
+#sign{
+position: relative;
+top: 8px;
+color: #fff;
+word-spacing: 1px;
+}
+.center {
+	display: block;
+	text-align: -webkit-center;
 	width: 100%;
-	margin: 199px 200px 0 240px;
+}
+.google {
+	display: block;
+	position: relative;
+	height 200px;
+	width: 450px;
+}
+.search {
+	display: block;
+	position: absolute;
+	top: 361px;
+	left: 90px;		
+	
 }
 .box {
-	width: 500px;
-	height: 35px;
+	display: block;
+	border: 1px;
+	background-color: #fff;
+	width: 484px;
+	height: 44px;
 	margin: -125px;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.box:hover{
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.buttons {
+	position: relative;
+	top: 100px;
+}
+.button1:hover {
+	color: #222;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.button2:hover {
+	color: #222;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .button1, .button2 {
-	background-color: #f5f5f5;
+	background-color: #f2f2f2;
 	font-family: Arial;
 	color: #696969;
 	font-weight: bold;
@@ -53,17 +113,24 @@ div {
 	width: 130px;
 	font-size: 13px;
 	border: none;
-	display: inline;
+	display: inline block;
 }
-footer {
-	bottom: 0px;
+.ftbx {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+.foot {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
 	width: 100%;
-	position: fixed;
-	background-color: #ececec;
 	color: #696969;
 	font-family: Arial;
 	font-size: 13px;
 	word-spacing: 30px;
+	min-width: 980px;
+	padding-bottom: 40px;
 }
 footer a:link {
 	color: #696969;
@@ -76,5 +143,6 @@ footer a:visited {
 	float: left;
 }
 .right {
+	margin-right: 30px;
 	float: right;
 }
